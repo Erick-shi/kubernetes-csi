@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: ConfigMap
+data:
+  config.json: |-
+    [
+      {
+        "clusterID": "a48a0b74-5eca-11ef-a5c2-000c292bcf30",
+        "monitors": [
+          "192.168.200.202:6789"
+        ]
+      }
+    ]
+metadata:
+  name: ceph-csi-config
