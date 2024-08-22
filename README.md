@@ -9,3 +9,5 @@ csi-rbd-sc.yaml
 ```
 中的认证信息和`clusterID`即可。
 最后`kubectl apply -f .`
+参考文档
+https://docs.ceph.com/en/reef/rbd/rbd-kubernetes/
